@@ -34,7 +34,7 @@ Resources:
 
       Repository: !Ref GithubRepository
 
-      AccessToken: '{{resolve:secretsmanager:github-token}}'
+      AccessToken: '{{resolve:secretsmanager:github-token-2}}'
 
       IAMServiceRole: !GetAtt AmplifyRole.Arn
 
